@@ -1,0 +1,13 @@
+Package: CowserBigData
+Type: Package
+Title: Gets Me a Good Grade (Title Case)
+Version: 0.1.0
+Author: Danny Cowser
+Maintainer: The package maintainer <dannycowser@utexas.edu>
+Description: Creating a package for exercise 3 in Making Big Data at UT-A
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.2.3

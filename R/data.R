@@ -1,0 +1,20 @@
+#' @title exampleData
+#'
+#' @description Peacebuilding dataset PeaDa 0.1 - Dataset of country years and peacebuilding interventions
+#'
+#' @format A data frame with 7132 rows and 11 variables:
+#' \describe{
+#'   \item{country_year}{Country year}
+#'   \item{treated}{indicator for treament of country year}
+#'   \item{first_year}{first year of treatment}
+#'   \item{last_year}{last year of treatment}
+#'   \item{post_treatment}{binary indicator of if a peacebuilding project had been implemented yet}
+#'   \item{cumulative_treatment}{cumulative number of treatment years}
+#'   \item{post_2_treatments}{binary indicator of if 2 peacebuilding projects had been implemented yet}
+#'   \item{post_3_treatments}{binary indicator of if 3 peacebuilding projects had been implemented yet}
+#'   \item{post_4_treatments}{binary indicator of if 4 peacebuilding projects had been implemented yet}
+#'   \item{post_5_treatments}{binary indicator of if  5peacebuilding projects had been implemented yet}
+#'   \item{treated_sum}{sum of all treatment years}
+#' }
+#' @source <PeaDa from IPD>
+"exampleData"
