@@ -2,7 +2,7 @@
 % Please edit documentation in R/GetDataAssetFunction.R
 \name{GetDataAsset}
 \alias{GetDataAsset}
-\title{Title}
+\title{Gets data asset from dropbox}
 \usage{
 GetDataAsset(url, target_extension = ".csv")
 }
@@ -10,5 +10,5 @@ GetDataAsset(url, target_extension = ".csv")
 \item{target_extension}{}
 }
 \description{
-Title
+Gets data asset from dropbox
 }
