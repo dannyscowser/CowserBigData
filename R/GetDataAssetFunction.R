@@ -48,7 +48,7 @@ GetDataAsset <- function(url,
 
   # cleanup
   file.remove( temp_folder_zip )
-  file.remove( temp_folder_unzip )
+  try(file.remove( temp_folder_unzip ))
 
   # return
   return( returned_dt )
