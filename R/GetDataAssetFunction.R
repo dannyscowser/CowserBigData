@@ -10,14 +10,14 @@
 GetDataAsset <- function(url,
                          target_extension = ".csv"){
   # # Download and unzip the data asset
-  # url <- "https://www.dropbox.com/s/5mzc60tbh09ew49/lalonde%20nsw.csv.zip?dl=1"
-  # temp <- tempfile(fileext = ".zip")
-  # download.file(url, temp)
-  # data <- unzip(temp)
-  # unlink(temp)
-  # # Load the data into the R session
-  # data <- read.csv(data)
-  # return(data)
+  url <- "https://www.dropbox.com/s/5mzc60tbh09ew49/lalonde%20nsw.csv.zip?dl=1"
+  temp <- tempfile(fileext = ".zip")
+  download.file(url, temp)
+  data <- unzip(temp)
+  unlink(temp)
+  # Load the data into the R session
+  data <- read.csv(data)
+  return(data)
 
   # clean URL if from dropbox
   url <- gsub(url, pattern="https://www.dropbox.com",
